@@ -1,0 +1,17 @@
+echo "Give input string:"
+read str
+echo $str
+
+ar=($str)
+
+#echo ${ar[1]}
+
+function el_index {
+    cnt=0; for el in "${ar[@]}"; do
+        [[ $el == "$1" ]] && echo $cnt && break
+        ((++cnt))
+    done
+}
+el_index "MIST" 
+
+

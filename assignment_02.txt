@@ -1,0 +1,20 @@
+sudo mkdir /etc/online_A
+
+sudo mkdir /etc/rec_[201814005]
+cd /etc/rec_[201814005]
+sudo touch 201614123.txt
+
+
+sudo mv /etc/rec_[201814005]/201614123.txt /etc/rec_[201814005]/rafsun.txt
+ls -l /etc/rec_[201814005]/201614123.txt
+ls -l /etc/rec_[201814005]/rafsun.txt
+
+sudo chmod u+rwx /etc/rec_[201814005]/rafsun.txt
+sudo chmod g+rwx /etc/rec_[201814005]/rafsun.txt
+sudo chmod o+rwx /etc/rec_[201814005]/rafsun.txt
+
+sudo echo "We are so great!" >> /etc/rec_[201814005]/rafsun.txt
+
+sudo echo "We all are going to work for a better life" >> /etc/rec_[201814005]/rafsun.txt
+
+
